@@ -6,8 +6,6 @@ import Vocab from './components/vocab/vocab';
 import './App.css';
   
 function App(){
-
-
     return (
        <Router>
            <div className="App">
@@ -27,6 +25,7 @@ function App(){
               </li>
               
             </ul>
+            <></>
            <Routes>
                  <Route exact path='/' element={< Home />}></Route>
                  <Route exact path='/sent' element={< Sent />}></Route>
