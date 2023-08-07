@@ -13,13 +13,17 @@ function App(){
            <div className="App">
             <ul className="App-header">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Accueil</Link>
+                <p className="translated">Home</p>
               </li>
               <li>
-                <Link to="/sent">Semesters</Link>
+                <Link to="/sent">Phrases</Link>
+                <p className='translated'>Sätze</p>
               </li>
+
               <li>
-                <Link to="/vocab">Subjects</Link>
+                <Link to="/vocab">Vocabulaire</Link>
+                <p className='translated'>Vokabular</p>
               </li>
               
             </ul>
