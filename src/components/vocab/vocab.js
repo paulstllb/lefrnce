@@ -58,17 +58,17 @@ function Comp({ onAddVokabel }) {
       <div className={`custom-button`} onClick={handleAddClick}>
         Add new one
       </div>
-      <input
+      <input className={styles['vokabeln-input']}
         placeholder="Franz."
         value={franzoesisch}
         onChange={(e) => setFranzoesisch(e.target.value)}
       />
-      <input
+      <input className={styles['vokabeln-input']}
         placeholder="Aussprache"
         value={aussprache}
         onChange={(e) => setAussprache(e.target.value)}
       />
-      <input
+      <input className={styles['vokabeln-input']}
         placeholder="Deutsch"
         value={deutsch}
         onChange={(e) => setDeutsch(e.target.value)}

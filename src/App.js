@@ -21,7 +21,7 @@ function App() {
 
               <li>
                 <Link to="/vocab">Vocabulaire</Link>
-                <p className='translated'>Vokabular</p>
+                <p className='translated'>Vokabeln</p>
               </li>
               
             </ul>

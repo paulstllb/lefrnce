@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*HEADER*/
 .App-header {
   background-color: #d2def6;
   height: 15vh;
@@ -14,12 +15,11 @@
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-header li{
-  list-style-type: none;
-}
-.App-header a{
+}.App-header li{
+  list-style-type: none; 
+  text-align: center;
+  width:30%;
+}.App-header a{
   color:rgb(21, 32, 54);
   text-decoration: none;
   margin:auto;
@@ -39,9 +39,6 @@
   transition:transform 0.2s ease-in-out;
 }.App-header li>a:hover::after{
   transform: scale(1);
-}.App-header li{
-  text-align: center;
-  width:30%;
 }.App-header .translated{
   font-style: italic;
   font-size: 65%;

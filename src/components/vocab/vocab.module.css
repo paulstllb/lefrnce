@@ -1,5 +1,10 @@
 /* Vokabeln.module.css */
 
+h2{
+  text-align: center;
+  color: rgb(5, 12, 37);
+}
+
 .vokabeln-container {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -45,11 +50,14 @@
     padding: 5px;
     border: 1px solid #d1d1d1;
     border-radius: 4px;
-    width: 300px;
+    height:5vh;
+    width:33%;
+    margin:5px;
+    font-size: 90%;
   }
   
   .vokabeln-button {
-    background-color: #007bff;
+    background-color: #ff2200;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -59,8 +67,12 @@
 
   .hstack{
     display: flex;
+    width:80%;
+    margin:auto;
     flex-direction: row;
     padding: 20px;
+    align-items: center;
+    overflow:hidden;
     justify-content: space-evenly;
   }
   .vstack{
