@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lefrnce/static/css/main.d5e25dd5.css",
+    "main.js": "/lefrnce/static/js/main.26456dcb.js",
+    "index.html": "/lefrnce/index.html",
+    "main.d5e25dd5.css.map": "/lefrnce/static/css/main.d5e25dd5.css.map",
+    "main.26456dcb.js.map": "/lefrnce/static/js/main.26456dcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e25dd5.css",
+    "static/js/main.26456dcb.js"
+  ]
+}
