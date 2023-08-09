@@ -1,0 +1,24 @@
+.sentContainer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .sentence {
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .fr {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .de {
+    color: #555;
+  }
+  
