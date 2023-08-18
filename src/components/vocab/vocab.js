@@ -7,6 +7,10 @@ function Vocab() {
     { franzoesisch: "Merci", aussprache: "mɛʁsi", deutsch: "Danke" },
     { franzoesisch: "Chat", aussprache: "ʃa", deutsch: "Katze" },
     { franzoesisch: "Chien", aussprache: "ʃjɛ̃", deutsch: "Hund" },
+    { franzoesisch: "Wo", aussprache: "wo", deutsch: "Wo" },
+    { franzoesisch: "Wie", aussprache: "wi", deutsch: "Wie" },
+    { franzoesisch: "Warum", aussprache: "waʁum", deutsch: "Warum" },
+    { franzoesisch: "Wann", aussprache: "van", deutsch: "Wann" },
     // Weitere Vokabeln hier hinzufügen
   ]);
 
