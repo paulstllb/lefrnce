@@ -2,13 +2,16 @@ import styles from "./sent.module.css"
 
 function sent(){
     const sentences = [
-        { fr: "Bonjour, comment ça va ?", de: "Hallo, wie geht es dir?" },
-        { fr: "J'aime voyager à l'étranger.", de: "Ich liebe es, ins Ausland zu reisen." },
-        { fr: "Quel est ton plat préféré ?", de: "Was ist dein Lieblingsessen?" },
-        { fr: "Il fait beau aujourd'hui.", de: "Heute ist schönes Wetter." },
-        { fr: "J'ai rendez-vous chez le médecin demain.", de: "Ich habe morgen einen Termin beim Arzt." },
-        // Weitere Sätze hier hinzufügen
-      ];
+            { fr: "Bonjour, comment ça va ?", de: "Hallo, wie geht es dir?" },
+            { fr: "J'aime voyager à l'étranger.", de: "Ich liebe es, ins Ausland zu reisen." },
+            { fr: "Quel est ton plat préféré ?", de: "Was ist dein Lieblingsessen?" },
+            { fr: "Il fait beau aujourd'hui.", de: "Heute ist schönes Wetter." },
+            { fr: "J'ai rendez-vous chez le médecin demain.", de: "Ich habe morgen einen Termin beim Arzt." },
+            { fr: "Où est Roxy ?", de: "Wo ist Roxy?" },
+            { fr: "Quand est-ce qu'on mange ?", de: "Wann essen wir?" },
+            { fr: "Pourquoi Roxy n'est-elle pas à la maison ?", de: "Warum ist Roxy nicht zuhause?" },
+            // Weitere Sätze hier hinzufügen
+          ];
     
       return (
         <div className={styles.sentContainer}>
